@@ -1,0 +1,128 @@
+<!doctype html>
+
+<html lang="en">
+    
+    <head>
+        <meta charset="utf-8" />
+        <title>jQuery Assignment8 - part 1</title>
+        
+        <link href="styles/main.css" type="text/css" rel="stylesheet" />
+        
+        <script src="js/jquery-3.1.0.min.js" type="text/javascript"></script>
+
+   <script>     
+        $(document).ready(function(){
+                <!--   STEP 1     -->
+           /* $('button').click(function(){
+            alert('The button was clicked.');
+            });*/
+                <!--   STEP 2     -->
+            /*$('button').bind('click', function(){
+            alert('The button was clicked using the .bind method.');
+            });*/
+                <!--   STEP 3     -->    
+             /* $('button').on('click', function(){
+            alert('The button was clicked using the on() method.');
+            });*/ 
+                <!--   STEP 4     -->    
+             /* $('button').on('click', function(){
+            alert('The button was clicked using the on() method with multiple buttons.');
+            });   */ 
+                <!--   STEP 5     -->   
+            /* $('#theDiv').css('background','#ccc').width('400px').height('400px');        
+                   $('#theDiv').on('click mouseenter mouseleave', function(){
+                    alert('The div was either clicked or the mouse entered or left the div.');
+                });*/
+                <!--   STEP 6     -->        
+           /* $('#theDiv').css('background','#ccc').width('400px').height('400px');   
+            $('#theDiv').on({
+                mouseenter: function() {$('#msg').html('The mouse entered the div!');},
+                mouseleave: function() {$('#msg').html('The mouse left the div!');},
+                click: function() {$('#msg').html('You clicked on the div!');}
+            });      */
+                <!--   STEP 7     --> 
+           /*window.addEventListener('load', init, false);
+            function init() {
+                redirect.addEventListener('click', msg, false);
+            }
+            window.addEventListener('click', function(msg) {
+                msg.preventDefault();
+                $('#redirect').css('color', 'red');
+                $('#redirect').on('click', function(){                           
+                    alert('Triggered by a ' + event.target.nodeName + ' element.');
+        });
+     }); */
+            
+                <!--   STEP 8     --> 
+       /* $('#theDiv').css('background','#ccc').width('200px').height('200px');   
+            $(window).resize(function() {
+            $('#dim_width').html($(window).width());
+                $('#dim_height').html($(window).height());
+            }).resize();
+   });      */
+                <!--   STEP 9     -->      
+       /*           $('input:text').focus(
+        function(){
+            $(this).css({'background-color' : '#ccc'});
+        });
+
+        $('input:text').blur(
+        function(){
+            $(this).css({'background-color' : '#fff'});
+    });*/
+            
+          <!--   STEP 10 -->          
+            
+            
+            
+            
+});
+</script>
+<body>
+<!--    <button>click me!</button> -->
+    
+<!--    For Step 4-->
+<!--    <button>click me too!</button>-->
+    
+    <!--    For Step 5, 6-->
+<!--    <div id='theDiv'>Example div of size 400px x 400px</div>-->
+    
+     <!--    For Step 6 with above-->
+<!--    <h2> Input = <span id='msg'></span></h2>   -->
+    
+    <!--    For Step 7-->
+<!--        <a id="redirect" href="http://www.google.com">Visit Google</a>-->
+    
+    <!--    For Step 8-->
+    <!--<div id='theDiv'>Window Width: <span id="dim_width"></span><br />
+    Window Height: <span id='dim_height'></span><br /></div>-->
+    
+    <!--    For Step 9-->
+    <!--<form action='#'>
+       <div class='sep'>
+       <label>
+           Textbox: <input type='text' value='This is my text box message' />
+       </label>
+      </div>
+    </form>     -->
+           
+  <!--    For Step 10-->          
+    <!--<form action='#'>
+       <div class='sep'>
+           <label class='control-label col-sm-2' for='myName'>Name:</label>
+                    <div class='col-sm-10'>
+                        <input type='text' class='form-control' id='myName' name='myName' placeholder='First and last name' >
+                        <span>*</span><br>
+                    </div>
+        <label for="email_address">E-Mail:</label>
+            <input type="text" name="email_address" id="email_address" placeholder=" Email address">
+            <span>*</span><br>
+      </div>
+           <p><input type='submit' name='submit' id='submit'value='Submit' /></p>
+    </form>     
+    -->
+    
+    
+</body>
+    
+</html>

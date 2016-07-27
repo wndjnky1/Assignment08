@@ -1,0 +1,39 @@
+/*
+    colors:
+*/
+
+header, nav, section, aside, article, footer, video, audio, main {      display: block;
+}
+* {
+    padding:0;
+    margin:0;
+}
+body {
+    font-family:Tahoma, sans-serif;
+    margin:20px;
+}
+h1, h2, p {
+    margin-bottom:15px;
+}
+ul {
+    margin:0 0 10px 45px;
+}
+#example {
+    background-color:#ccc;
+    border:solid 3px #333;
+    font-size:18px;
+    padding:15px;
+    min-height:150px;
+    color:darkred;
+}
+input {
+    margin:5px 10px;
+    padding:4px 6px;
+}
+label {
+    padding: 15px;
+    display: block;
+}
+.sep {
+    margin-bottom: 2em;
+}
